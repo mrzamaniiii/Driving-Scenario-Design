@@ -32,8 +32,8 @@ Key features:
 
 - Constant Acceleration (CA) Kalman Filter
 - RNN learns:
-  - Process noise intensity \( q(t) \)
-  - Measurement noise scaling \( r(t) \)
+  - Process noise intensity
+  - Measurement noise scaling
 
 RNN inputs:
 - Normalized innovation
@@ -47,5 +47,5 @@ RNN inputs:
 - **Maximum Error**
 - **Bias** per axis
 - **Mean NIS** (Normalized Innovation Squared, consistency check)
-- **Rejected updates (%)** using NIS-based gating
+- **Rejected updates** using NIS-based gating
 
